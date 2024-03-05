@@ -1,0 +1,55 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: azure;
+	background-image:url("https://i.pinimg.com/564x/79/f7/5c/79f75c187818637fa47a613da7e4f9c0.jpg");
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.welcome {
+	 
+	background-color: rgb(23, 101, 128);
+    background-image:url("https://i.pinimg.com/564x/79/f7/5c/79f75c187818637fa47a613da7e4f9c0.jpg");
+	text-align: center;
+	width: 300px;
+	height: 400px;
+	border-radius: 10px;
+	padding: 20px;
+	margin: 0 auto;
+	background-size: cover;
+	
+}
+
+h1 {
+	
+	color: azure;
+}
+
+.options {
+	margin-top: 100px;
+}
+
+.loginpage, .regpage {
+	display: inline-block;
+	padding: 10px 20px;
+	margin: 0 10px;
+	text-decoration: none;
+	color: rgb(12, 12, 12);
+	background-color: azure;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 5vh;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.loginpage:hover, .regpage:hover {
+	background-color: rgb(23, 101, 128);
+	
+	
+}

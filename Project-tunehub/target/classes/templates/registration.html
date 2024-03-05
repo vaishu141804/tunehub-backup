@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Registration Form</title>
+<style>
+      body{
+      
+        background-color: #f0f8ff;
+      }
+      input[type=text], select{
+        width: 100%;
+        padding: 5px 7px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      input[type=email], select{
+        width: 100%;
+        padding: 5px 7px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      input[type=password], select{
+        width: 100%;
+        padding: 5px 7px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      textarea[name=address], select{
+        width: 100%;
+        padding: 5px 7px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      input[type=submit]{
+        width: 100%;
+        background-color:#5ca3e0;
+        margin: 8px 0;
+        display: inline-block;
+        color: azure;
+        padding: 5px 7px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      input[type=submit]:hover{
+        background-color:rgb(25, 87, 142);
+      }
+      div{
+        width: 350px;
+        border-radius: 8px;
+        background-color:#cfe2f3;
+        padding: 20px;
+        margin: 0 auto;
+        font-family: 'Times New Roman', Times, serif;
+        
+      }
+      h3{
+      	
+        text-align: center;
+        font-style:italic;
+        color: rgb(46, 49, 52);
+      }
+  </style>
+</head>
+<body>
+	
+	<div>
+	<h3>Create Your Account</h3>
+	<form action="register">
+	<label>User name : </label><br>
+	<input type="text" name="username">
+	<br><br>
+	<label>Email : </label><br>
+	<input type="email" name="email">
+	<br><br>
+	<label>Password : </label><br> 
+	<input type="password" name="password">
+	<br><br>
+	<label>Gender : </label><br>
+	<input type="radio" name="gender" value="Male"> Male
+	<input type="radio" name="gender" value="Female"> Female
+	<input type="radio" name="gender" value="Other"> Other
+	<br><br>
+	<label>Role : </label><br>
+	<input type="radio" name="role" value="Admin"> admin
+	<input type="radio" name="role" value="Customer"> Customer
+	<br><br>
+	<label>Address : </label><br>
+	<textarea name="address"></textarea><br><br>
+	<input type="submit" value="Register">
+	</form>
+	</div>
+</body>
+</html>

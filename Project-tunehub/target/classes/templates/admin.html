@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+      body {
+        background-color: #f0f8ff;
+        background-image:url("https://i.pinimg.com/564x/79/f7/5c/79f75c187818637fa47a613da7e4f9c0.jpg");
+        
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+        
+      }
+      input[type="submit"] {
+        width: 100%;
+        background-color: rgb(0, 128, 192);
+        margin: 8px 0;
+        display: inline-block;
+        color: azure;
+        padding: 5px 7px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        
+      }
+      input[type="submit"]:hover {
+        background-color: rgb(25, 87, 142);
+      }
+      div {
+        width: 250px;
+        border-radius: 8px;
+        background-color: #cfe2f3;
+        padding: 20px;
+        margin: 0 auto;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      h2 {
+        text-align: center;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        color: rgb(46, 49, 52);
+      }
+    </style>
+</head>
+<body>
+	<div>
+	<form action="addsong"  method="post">
+	<h1>Manage Songs</h1>
+	<input type="submit" value="Add Songs">
+    </form>
+	</div>
+	
+	<div>
+	<form action="viewsongs">
+	<h1>View Song</h1>
+	<input type="submit" value="View Songs">
+	</form>
+	</div>
+	
+	
+	<div>
+	<form action="playlist" >
+	<h1>Create PlayList</h1>
+	<input type="submit" value="Create playlist">
+	</form>
+	</div>
+		
+	
+	
+	<div>
+	<form action="viewplaylist" >
+	<h1>View PlayList</h1>
+	<input type="submit" value="View play">
+	</form>
+	</div>
+		
+	
+	
+</body>
+</html>
